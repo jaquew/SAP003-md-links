@@ -1,0 +1,22 @@
+{
+  "name": "sap003-md-links",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaquew/SAP003-md-links.git"
+  },
+  "author": "Jaquew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaquew/SAP003-md-links/issues"
+  },
+  "homepage": "https://github.com/jaquew/SAP003-md-links#readme",
+  "dependencies": {
+    "promise": "^8.0.3"
+  }
+}
