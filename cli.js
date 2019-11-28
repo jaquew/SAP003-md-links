@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const mdLinks = require('./lib/index.js')
 
 const file = process.argv[2];

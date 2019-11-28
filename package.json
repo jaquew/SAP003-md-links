@@ -1,8 +1,11 @@
 {
-  "name": "sap003-md-links",
+  "name": "mdlinks",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
+  "bin": {
+    "mdlinks": "cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
