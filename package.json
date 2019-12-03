@@ -6,9 +6,6 @@
   "bin": {
     "mdlinks": "cli.js"
   },
-  "scripts": {
-    "test": "jest --coverage"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jaquew/SAP003-md-links.git"
@@ -19,12 +16,23 @@
     "url": "https://github.com/jaquew/SAP003-md-links/issues"
   },
   "homepage": "https://github.com/jaquew/SAP003-md-links#readme",
+  "scripts": {
+    "eslint": "eslint --ext .js lib/index.js",
+    "lint": "npm run eslint",
+    "test": "jest --coverage",
+    "pretest": "npm run lint"
+  },
   "devDependencies": {
-    "eslint": "^6.7.1",
-    "eslint-config-standard": "^14.1.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
     "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
     "eslint-plugin-standard": "^4.0.1",
     "jest": "^24.9.0",
     "jest-runner-eslint": "^0.7.5"
