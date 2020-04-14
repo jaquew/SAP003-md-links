@@ -36,5 +36,8 @@
     "eslint-plugin-standard": "^4.0.1",
     "jest": "^24.9.0",
     "jest-runner-eslint": "^0.7.5"
+  },
+  "dependencies": {
+    "kind-of": "^6.0.3"
   }
 }
